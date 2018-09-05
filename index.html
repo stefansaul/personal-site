@@ -1,3 +1,249 @@
+<!DOCTYPE HTML>
 <html>
-  <b>Annie I Love You</b>
+	<head>
+		<title>Annie + Stefan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="index is-preload">
+		<div id="page-wrapper">
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="inner">
+
+						<header>
+							<h2>ANNIE + STEFAN</h2>
+						</header>
+						<p>October 20th, 2018
+						<br />
+						New York City
+						<br />
+                            <p id="countdown"></p>
+
+                        <script>
+                            // Set the date we're counting down to
+                            var countDownDate = new Date("Oct 20, 2018 18:30:00").getTime();
+
+                            // Update the count down every 1 second
+                            var x = setInterval(function() {
+
+                            // Get todays date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now and the count down date
+                            var distance = countDownDate - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            
+                            document.getElementById("countdown").innerHTML = days + " days to go";
+
+                            // If the count down is finished, write some text 
+                            if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("countdown").innerHTML = "EXPIRED";
+                            }
+                        }, 1000);
+                        </script>
+
+						<footer>
+							<ul class="buttons stacked">
+								<li><a href="#rsvp-button" class="button fit scrolly">RSVP</a></li>
+							</ul>
+						</footer>
+
+					</div>
+
+				</section>
+
+			<!-- Main -->
+				<article id="main">
+
+					<header class="special container">
+						<span class="icon featured fa-heart"></span>
+						<h2>We're getting married and excited to celebrate with you!
+						</h2>
+					</header>
+
+					
+					<!-- Two -->
+						<section class="wrapper style1 container special">
+							<div class="row">
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon featured fa-calendar"></span>
+										<header>
+											<h3>When</h3>
+										</header>
+										<p>Saturday, October 20th, 2018 <br>
+                                        6:30 - 11:30 PM
+                                        </p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<span class="icon featured fa-map-marker"></span>
+										<header>
+											<h3>Where</h3>
+										</header>
+										<p>The Nomad Hotel - Rooftop<br>
+                                        1170 Broadway<br>
+                                        New York, NY 10001</p>
+									</section>
+
+								</div>
+								<div class="col-4 col-12-narrower">
+
+									<section>
+										<!--<span class="icon featured fa-info-circle"></span>-->
+                                        <span class="icon featured fa-train"></span>
+										<header>
+											<h3>Travel</h3>
+										</header>
+										<p>Within walking distance from most<br> major subway lines <br> </p>
+									</section>
+
+								</div>
+							</div>
+						</section>
+
+					<!-- Three -->
+						<section class="wrapper style3 container special">
+
+							<header class="major">
+								<h2>Over the Years</h2>
+							</header>
+
+							<div class="row">
+								<div class="col-4 col-16-narrower">
+
+									<section>
+										<!--<a href="#" class="image featured">-->
+                                            <img src="images/pic01.jpg" alt="" width="350" />
+                                        <!--</a>-->
+										<header>
+											<h3>Hong Kong</h3>
+										</header>
+									</section>
+
+								</div>
+								<div class="col-4 col-16-narrower">
+
+									<section>
+										<!--<a href="#" class="image featured">-->
+                                            <img src="images/pic02.jpg" alt="" width="350"  />
+                                        <!--</a>-->
+										<header>
+											<h3>Seoul</h3>
+										</header>
+									</section>
+								</div>
+								<div class="col-4 col-16-narrower">
+
+									<section>
+										<!--<a href="#" class="image featured">-->
+                                            <img src="images/pic05.jpg" alt="" width="350"  />
+                                        <!--</a>-->
+										<header>
+											<h3>A Galaxy Far, Far Away</h3>
+										</header>
+									</section>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-4 col-16-narrower">
+
+									<section>
+										<!--<a href="#" class="image featured">-->
+                                            <img src="images/pic03.jpg" alt="" width="350"/>
+                                        <!--</a>-->
+										<header>
+											<h3>Osaka</h3>
+										</header>
+									</section>
+
+								</div>
+								<div class="col-4 col-16-narrower">
+
+									<section>
+										<!--<a href="#" class="image featured">-->
+                                            <img src="images/pic06.jpg" alt="" width="350" />
+                                        <!--</a>-->
+										<header>
+											<h3>New York</h3>
+										</header>
+									</section>
+
+								</div>
+								<div class="col-4 col-16-narrower">
+
+									<section>
+										<!--<a href="#" class="image featured">-->
+                                            <img src="images/pic04.jpg" alt="" width="350" />
+                                        <!--</a>-->
+										<header>
+											<h3>Paris</h3>
+										</header>
+									</section>
+
+								</div>
+							</div>
+
+							<!--<footer class="major">
+								<ul class="buttons">
+									<li><a href="#" class="button">See More</a></li>
+								</ul>
+							</footer>-->
+                            <section>
+                                <br><br>
+                            <header>
+                            <h2>Excited to join us?</h2>
+                            </header>
+                            <div id="rsvp-button">
+                            <footer>
+                                <ul class="buttons">
+                                    <li><a href="#rsvpform" class="button primary" onclick="toggle_visibility('rsvpform');">RSVP</a></li>
+                                    <script type="text/javascript">
+                                       function toggle_visibility(id) {
+                                           var e = document.getElementById(id);
+                                           if(e.style.display == 'block')
+                                              e.style.display = 'none';
+                                           else
+                                              e.style.display = 'block';
+                                       }
+                                    </script>
+                                </ul>
+                            </footer>                                
+                            </div>
+
+                            </section>
+
+            <!-- RSVP -->
+                        <section>
+                            <div id="rsvpform" style="display:none;">
+                            <div class="inner-rsvp">
+                              <script type="text/javascript" src="http://app.rsvpify.com/embed/500140231"></script><script type="text/javascript" src="http://app.rsvpify.com/js/iframeResizer.min.js"></script><script type="text/javascript">iFrameResize({autoResize: false,checkOrigin: false,heightCalculationMethod: 'max',enablePublicMethods: true}, "#RSVPifyIFrame");</script>
+                            </div>
+                            </div>
+                        </section>
+                </section>
+				</article>
+        </div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
