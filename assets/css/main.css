@@ -2666,6 +2666,144 @@ input, select, textarea {
 
 	}
 
+/* Normal */
+
+	@media screen and (max-width: 1280px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+				letter-spacing: 0.025em;
+				line-height: 1.65em;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+				line-height: 1.5em;
+			}
+
+		/* Section/Article */
+
+			header.major {
+				padding-bottom: 1.5em;
+			}
+
+			footer.major {
+				padding-top: 2em;
+			}
+
+		/* Wrapper */
+
+			.wrapper {
+				margin-bottom: 4em;
+				padding: 4em 3em;
+			}
+
+				.wrapper.style4 {
+					padding: 3em;
+				}
+
+		/* Header */
+
+			#header nav ul li {
+				margin-left: 1em;
+			}
+
+		/* Banner */
+
+			#banner {
+				background-attachment: scroll;
+			}
+
+		/* CTA */
+
+			#cta {
+				padding: 4em;
+				background-attachment: scroll;
+			}
+
+		/* Footer */
+
+			#footer {
+				padding: 4em;
+			}
+
+	}
+
+/* Narrow */
+
+	@media screen and (max-width: 980px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+				letter-spacing: 0.025em;
+				line-height: 1.5em;
+			}
+
+		/* Section/Article */
+
+			header br {
+				display: none;
+			}
+
+			header.major {
+				padding-bottom: 1em;
+			}
+
+			header.special {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+
+			footer.major {
+				padding-top: 1.5em;
+			}
+
+		/* Wrapper */
+
+			.wrapper {
+				margin-bottom: 3em;
+				padding: 3em 2.5em;
+			}
+
+				.wrapper.special br {
+					display: none;
+				}
+
+				.wrapper.style1 {
+					padding: 0 2.5em;
+				}
+
+				.wrapper.style2 {
+					background-size: 15em;
+				}
+
+				.wrapper.style4 {
+					padding: 2.5em;
+				}
+
+		/* Banner */
+
+			#banner {
+				background-size: 15em, 15em, auto, cover;
+			}
+
+		/* Main */
+
+			#main {
+				background-size: 15em;
+			}
+
+		/* CTA */
+
+			#cta {
+				background-size: 15em, 15em, auto, cover;
+				padding: 3em;
+			}
+
+	}
 
 /* Narrower */
 
@@ -2673,7 +2811,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 840px) {
 
 		/* Basic */
 
