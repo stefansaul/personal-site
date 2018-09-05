@@ -2648,6 +2648,9 @@ input, select, textarea {
 				margin-bottom: 4em;
 			}
 
+             h2 br {
+                display:none
+            }
 	}
 
 /* Normal */
@@ -2675,6 +2678,10 @@ input, select, textarea {
 			footer.major {
 				padding-top: 2em;
 			}
+            
+            h2  {
+    overflow: hidden;
+    white-space: nowrap;            }
 
 		/* Wrapper */
 
