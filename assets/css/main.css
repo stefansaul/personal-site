@@ -81,7 +81,7 @@ input, select, textarea {
 		background: #f3f6fa;
 	}
 
-/*		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -91,7 +91,7 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-*/
+
 
 	body, input, select, textarea {
 		color: #7c8081;
@@ -3254,12 +3254,6 @@ input, select, textarea {
     padding: 0;
 }
 
-		/* CTA */
-
-			#cta {
-				background-size: 10em, 10em, auto, cover;
-				padding: 3em 1.5em;
-			}
 
 		/* Footer */
 
