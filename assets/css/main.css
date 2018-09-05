@@ -122,6 +122,9 @@ input, select, textarea {
 
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
+        text-align: center;
+
+            
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2726,7 +2729,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			header br {
-				display: none;
+				text-align:center;
 			}
 
 			header.major {
@@ -2750,7 +2753,7 @@ input, select, textarea {
 			}
 
 				.wrapper.special br {
-					display: none;
+                text-align:center;
 				}
 
 				.wrapper.style1 {
@@ -3105,7 +3108,7 @@ input, select, textarea {
 			}
 
 			p {
-				text-align: justify;
+				text-align: center;
 			}
 
 		/* Section/Article */
@@ -3192,7 +3195,7 @@ input, select, textarea {
 			}
 
 				.wrapper.special br {
-					display: none;
+					text-align:center;
 				}
 
 				.wrapper.style1 {
@@ -3231,7 +3234,7 @@ input, select, textarea {
 					}
 
 					#banner .inner br {
-						display: none;
+						text-align:center;
 					}
 
 		/* Main */
